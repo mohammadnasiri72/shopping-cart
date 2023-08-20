@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "yekan";
+    src: url("../font/Yekan.ttf");
+}
+
+@font-face {
+    font-family: "nas";
+    src: url("../font/Shekasteh\ V2.001.ttf");
+}
+
+@font-face {
+    font-family: "vazir";
+    src: url("../font/Vazir.ttf");
+}
+
+
+body {
+    font-family: "vazir";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(218, 218, 218);
+    padding-top: 20px;
+}
+
+.logo-header{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.btn-basket{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-btn-basket{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-search{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: antiquewhite;
+}
+.box-search{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50px;
+}
+.menu-link{
+    color: black;
+    transition: 0.4s;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.menu-link:hover{
+    color: rgb(81, 53, 184);
+}
+.img-slider{
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper{
+    height: 500px;
+}
+.img-box-sale{
+    width: 100px;
+    height: 100px;
+
+}
+.inpot-coupon-code{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.397);
+    height: 40px;
+}
+.text-shipping{
+    height: 50px;
+}
+.logo-footer{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
