@@ -29,7 +29,6 @@ a {
 
 header{
     background-color: rgb(218, 218, 218);
-    padding-top: 20px;
 }
 
 .logo-header{
@@ -101,4 +100,6 @@ header{
     height: 100px;
     cursor: pointer;
 }
-
+#offcanvasRight{
+    z-index: 55545456;
+}
